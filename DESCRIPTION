@@ -13,3 +13,6 @@ BugReports: https://github.com/KMGJan/PlanktonData/issues
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
