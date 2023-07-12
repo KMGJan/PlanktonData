@@ -1,10 +1,9 @@
-#'
 #' Monthly average of zooplankton biomass between 2007 and 2021 at three stations in the Baltic Sea
 #'
 #' Report ...
 #'
 #' @format
-#' A data frame with 7,240 rows and 60 columns:
+#' A data frame with 2,956 rows and 7 columns:
 #' \describe{
 #'   \item{Month_abb}{Month abbreviation}
 #'   \item{Year}{Year}

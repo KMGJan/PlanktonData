@@ -1,6 +1,5 @@
 ## code to prepare `zooplankton` dataset goes here
 
-usethis::use_data(zooplankton, overwrite = TRUE)
 # Monthly zooplankton biomass at three stations between 2007 and 2021
 
 # library(shaRk)
@@ -211,7 +210,7 @@ dGenus <- d1 |>
 
 month = tibble(Month = 1:12,
                Month_abb = month.abb)
-monthly_zoo <- dGenus |>
+zooplankton <- dGenus |>
   dplyr::mutate(Coordinates = ifelse(Station == "BY15", "20.05000/57.33333",
                                      ifelse(Station == "BY31", "18.23333/58.58812",
                                             "15.98333/55.25000")),
