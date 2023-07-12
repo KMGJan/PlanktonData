@@ -8,7 +8,7 @@ Description: Processed data from SharkWeb (https://sharkweb.smhi.se/hamta-data/)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/KMGJan/PlanktonData
+URL: https://github.com/KMGJan/PlanktonData, https://kmgjan.github.io/PlanktonData/
 BugReports: https://github.com/KMGJan/PlanktonData/issues
 Depends: 
     R (>= 2.10)
