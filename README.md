@@ -26,14 +26,18 @@ devtools::install_github("KMGJan/PlanktonData")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to download the data amd how
+to use the `se` function
 
 ``` r
 library(PlanktonData)
 ## data(zooplankton)
+## data(phytoplankton)
+
+## se(c(1,4,1,2,5,1,2))
 ```
 
-This package includes 2 datasets for now.
+This package includes 2 datasets and one function for now.
 
 - A dataset containing monthly average of zooplankton biomass between
   2007 and 2021
@@ -62,3 +66,5 @@ head(phytoplankton)
 #> 5       Jan 2007    BY15 20.05000/57.33333 Dinoflagellates 0.6395350
 #> 6       Jan 2007    BY31 18.23333/58.58812 Dinoflagellates 0.0588896
 ```
+
+- A `se` function that calculate the standard error
