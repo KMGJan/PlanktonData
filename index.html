@@ -84,11 +84,14 @@
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
-<p>This is a basic example which shows you how to solve a common problem:</p>
+<p>This is a basic example which shows you how to download the data amd how to use the <code>se</code> function</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/KMGJan/PlanktonData" class="external-link">PlanktonData</a></span><span class="op">)</span></span>
-<span><span class="co">## data(zooplankton)</span></span></code></pre></div>
-<p>This package includes 2 datasets for now.</p>
+<span><span class="co">## data(zooplankton)</span></span>
+<span><span class="co">## data(phytoplankton)</span></span>
+<span></span>
+<span><span class="co">## se(c(1,4,1,2,5,1,2))</span></span></code></pre></div>
+<p>This package includes 2 datasets and one function for now.</p>
 <ul>
 <li>A dataset containing monthly average of zooplankton biomass between 2007 and 2021</li>
 </ul>
@@ -113,6 +116,9 @@
 <span><span class="co">#&gt; 4       Jan 2007     BY5 15.98333/55.25000         Diatoms 1.6393078</span></span>
 <span><span class="co">#&gt; 5       Jan 2007    BY15 20.05000/57.33333 Dinoflagellates 0.6395350</span></span>
 <span><span class="co">#&gt; 6       Jan 2007    BY31 18.23333/58.58812 Dinoflagellates 0.0588896</span></span></code></pre></div>
+<ul>
+<li>A <code>se</code> function that calculate the standard error</li>
+</ul>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
