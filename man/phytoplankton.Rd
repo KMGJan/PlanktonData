@@ -3,7 +3,7 @@
 \docType{data}
 \name{phytoplankton}
 \alias{phytoplankton}
-\title{Monthly average of zooplankton biomass between 2007 and 2021 at three stations in the Baltic Sea}
+\title{Monthly average of phytoplankton biomass between 2007 and 2021 at three stations in the Baltic Sea}
 \format{
 A data frame with 2,284 rows and 6 columns:
 \describe{
