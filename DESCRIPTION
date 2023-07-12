@@ -2,7 +2,7 @@ Package: PlanktonData
 Type: Package
 Title: Meaningful data for data wrangling
 Version: 0.1.0
-Author: person("Kinlan", "Jan", "kinlan.jan@hotmail.ch", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-5579-0017"))
+Author: person("Kinlan", "Jan", "kinlan.jan@su.se", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-5579-0017"))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Processed data from SharkWeb (https://sharkweb.smhi.se/hamta-data/) to practise key function of the tidyr and dplyr packages.
 License: MIT + file LICENSE
