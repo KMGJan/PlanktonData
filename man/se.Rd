@@ -20,4 +20,6 @@ Standard Error
 \examples{
 x <- c(2,3,2,3,4,5,1)
 se(x)
+data(iris)
+se(iris$Sepal.Length)
 }
